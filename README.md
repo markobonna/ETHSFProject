@@ -1,6 +1,7 @@
 # ETHSFProject
 
 ## Tutorial
+
 1. Create a Firebase account, and submit your email that you create it with to Mubarak's account to have access.
 2. Clone the repository to your workspace (preferably use GitHub Desktop).
 3. Open the repository on your text editor (preferably VS Code).
@@ -9,8 +10,11 @@
 6. Run `yarn build`
 7. Run `yarn run dev` to work on the project on your localhost
 
+Styling. Install Tailwinds for next.js; https://tailwindcss.com/docs/guides/nextjs
+
 ### Next.JS With Firebase Boiler Plate
-This repo is an edited version of https://github.com/bjcarlson42/nextjs-with-firebase. 
+
+This repo is an edited version of https://github.com/bjcarlson42/nextjs-with-firebase.
 
 This repo contains the followng actions implemented:
 
