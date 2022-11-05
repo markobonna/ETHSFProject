@@ -1,19 +1,28 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import ReadDataFromCloudFirestore from '@/components/cloudFirestore/Read'
-import Card from 'react-bootstrap/Card'
+import Card  from 'react-bootstrap/Card'
+import Button from 'react-bootstrap/Button'
+import { useRouter } from 'next/router'
 
 export default function Home() {
+
+  const router = useRouter();
+
+  const handleRoute = () => {
+    return router.push("./pages/fans")
+  }
 
     return (
       <div className={styles.container}>
         <Card>
           <Card.Body>
-            <Card.Title>Name</Card.Title>
-            <Card.Text>Email</Card.Text>
+            <Card.Title>Home Page</Card.Title>
+            <Card.Text>Music, Videos, Movies, Podcasts etc...</Card.Text>
             <hr />
             <ReadDataFromCloudFirestore />
             <hr />
+            <Button onClick={() => handleRoute()}>Fanpage</Button>
           </Card.Body>
         </Card>
       </div>
