@@ -17,5 +17,3 @@ This repo contains the followng actions implemented:
   - read (examples for all availible data types)
 - React Bootstrap
   - React Bootstrap installed with minimal styling
-
-This is compatable with next.js v10+ and Firebase JavaScript v8+, which are currently the newest versions. May work with older versions.
