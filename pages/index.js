@@ -17,8 +17,8 @@ export default function Home() {
       <div className={styles.container}>
         <Card>
           <Card.Body>
-            <Card.Title>Name</Card.Title>
-            <Card.Text>Email</Card.Text>
+            <Card.Title>Home Page</Card.Title>
+            <Card.Text>Music, Videos, Movies, Podcasts etc...</Card.Text>
             <hr />
             <ReadDataFromCloudFirestore />
             <hr />
