@@ -3,15 +3,13 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import FanPlaceholder from "@/components/FanPlaceholder";
 
-export default function Fans() {
+export default function Taylor() {
   return (
     <>
       <Head>
-        <title>Fan Clubs</title>
+        <title>Taylor Swift Fan Club</title>
       </Head>
-      <div>This is the Fan Clubs Page</div>
-      <div>Taylor Swift Fan Club</div>
-      <div>Snoop Dogg Fan Club</div>
+      <div>This is the Taylor Swift Fan Club Page</div>
     </>
   );
 }
