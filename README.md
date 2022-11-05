@@ -7,7 +7,7 @@
 4. Make sure to `cd` into the project file.
 5. Run `yarn install` to install all the dependencies.
 6. Run `yarn build`
-7. Run `yarn start` to view the project on your localhost
+7. Run `yarn run dev` to work on the project on your localhost
 
 ### Next.JS With Firebase Boiler Plate
 This repo is an edited version of https://github.com/bjcarlson42/nextjs-with-firebase. 
