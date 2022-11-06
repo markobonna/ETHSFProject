@@ -4,25 +4,29 @@ import ReadDataFromCloudFirestore from '@/components/cloudFirestore/Read'
 import Card  from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import { useRouter } from 'next/router'
+import ConnectWallet from '@/components/ConnectWallet'
+import VideoPlayer from '@/components/VideoPlayer'
 
 export default function Home() {
 
   const router = useRouter();
 
-  const handleRoute = () => {
-    return router.push("./pages/fans")
+  const handleFansRoute = () => {
+    return router.push("/fans")
   }
 
     return (
       <div className={styles.container}>
         <Card>
           <Card.Body>
+            <ConnectWallet />
             <Card.Title>Home Page</Card.Title>
             <Card.Text>Music, Videos, Movies, Podcasts etc...</Card.Text>
+            <VideoPlayer />
             <hr />
             <ReadDataFromCloudFirestore />
             <hr />
-            <Button onClick={() => handleRoute()}>Fanpage</Button>
+            <Button onClick={() => handleFansRoute()}>Fanpage</Button>
           </Card.Body>
         </Card>
       </div>
