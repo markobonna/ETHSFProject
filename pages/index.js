@@ -1,36 +1,37 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import ReadDataFromCloudFirestore from '@/components/cloudFirestore/Read'
-import Card  from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Button'
-import { useRouter } from 'next/router'
-import ConnectWallet from '@/components/ConnectWallet'
-import VideoPlayer from '@/components/VideoPlayer'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import ReadDataFromCloudFirestore from "@/components/cloudFirestore/Read";
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
+import { useRouter } from "next/router";
+import ConnectWallet from "@/components/ConnectWallet";
+import VideoPlayer from "@/components/VideoPlayer";
 
 export default function Home() {
-
   const router = useRouter();
 
   const handleFansRoute = () => {
-    return router.push("/fans")
-  }
+    return router.push("/fans");
+  };
 
-    return (
-      <div className={styles.container}>
-        <Card>
-          <Card.Body>
-            <ConnectWallet />
-            <Card.Title>Home Page</Card.Title>
-            <Card.Text>Music, Videos, Movies, Podcasts etc...</Card.Text>
-            <VideoPlayer />
-            <hr />
-            <ReadDataFromCloudFirestore />
-            <hr />
-            <Button onClick={() => handleFansRoute()}>Fanpage</Button>
-          </Card.Body>
-        </Card>
-      </div>
-    )
+  return (
+    <div className={styles.container}>
+      <Card>
+        <Card.Body>
+          <ConnectWallet />
+          <Card.Title>Home Page</Card.Title>
+          <Card.Text>Music, Videos, Movies, Podcasts etc...</Card.Text>
+          <VideoPlayer />
+          <hr />
+          <ReadDataFromCloudFirestore />
+          <hr />
+          <Button onClick={() => handleFansRoute()}>
+            Your Club Memberships
+          </Button>
+        </Card.Body>
+      </Card>
+    </div>
+  );
 
   //  return (
   //   <div className={styles.container}>
