@@ -9,7 +9,7 @@ const products = [
     id: 1,
     name: "From The D 2 The LBC",
     details:
-      "Go Behind the scenes with a speceial performance of 'From The D 2 The LBC' With Eminem and Snoop Dogg.",
+      "Go Behind the scenes with a special performance of 'From The D 2 The LBC' With Eminem and Snoop Dogg.",
     href: "#",
     imageSrc:
       "https://m.media-amazon.com/images/I/61dZOH98k7L._UX716_FMwebp_QL85_.jpg",
