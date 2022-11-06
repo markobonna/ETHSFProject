@@ -2,7 +2,7 @@
 
 ## Tutorial
 
-1. Create a Firebase account, and submit your email that you create it with to Mubarak's account to have access.
+1. Create a Firebase account and submit your email that you create it with to Mubarak's account to have access.
 2. Clone the repository to your workspace (preferably use GitHub Desktop).
 3. Open the repository on your text editor (preferably VS Code).
 4. Make sure to `cd` into the project file.
