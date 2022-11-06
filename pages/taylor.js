@@ -3,6 +3,10 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
 import { Container } from "@/components/Container";
+import { Player } from "@livepeer/react";
+
+const playbackId =
+  "bafybeifcpfjtw3zjqf3jylu23pw64h4z6cmvgy5a3dr7y6fo23joezgo3q";
 
 const products = [
   {
@@ -43,6 +47,7 @@ const products = [
     details:
       "See Taylor Swifts new video before anyone else and get a chance to win a meet and greet with Taylor Swift.",
     href: "https://livepeercdn.com/recordings/84663db2-ca7b-4832-bcb4-45b5b9136e78/index.m3u8",
+
     imageSrc:
       "https://upload.wikimedia.org/wikipedia/en/b/b9/Taylor_Swift_-_Anti-Hero.png",
     imageAlt: "Video.",
