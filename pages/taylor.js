@@ -37,6 +37,17 @@ const products = [
     imageAlt: "Album.",
     price: "$99 MATIC",
   },
+  {
+    id: 4,
+    name: "Video Release Preview with Livepeer",
+    details:
+      "See Taylor Swifts new video before anyone else and get a chance to win a meet and greet with Taylor Swift.",
+    href: "https://livepeercdn.com/recordings/84663db2-ca7b-4832-bcb4-45b5b9136e78/index.m3u8",
+    imageSrc:
+      "https://upload.wikimedia.org/wikipedia/en/b/b9/Taylor_Swift_-_Anti-Hero.png",
+    imageAlt: "Video.",
+    price: "FREE",
+  },
 ];
 
 function Taylor() {
