@@ -9,7 +9,7 @@ export default function Fans() {
       <Head>
         <title>Fan Clubs</title>
       </Head>
-      <div>This is the Fan Clubs Page</div>
+
       <div className="max-w-screen-md px-6 pt-24 mx-auto">
         <header className="pb-4 space-y-4 text-center border-b-2">
           <h1 className="text-5xl font-bold">
