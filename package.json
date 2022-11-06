@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@unlock-protocol/networks": "^0.0.8",
     "bootstrap": "^4.6.0",
     "clsx": "^1.2.1",
     "ethers": "^5.7.2",
